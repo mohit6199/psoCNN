@@ -210,5 +210,5 @@ class Particle:
         # This is used to free up memory during PSO training
         del self.model
         keras.backend.clear_session()
-        tf.reset_default_graph()
+        tf.compat.v1.reset_default_graph()
         self.model = None
