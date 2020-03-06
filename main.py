@@ -21,9 +21,9 @@ if __name__ == '__main__':
     # dataset = "mnist-random-background"
     # dataset = "mnist-background-images"
     
-    number_runs = 2
-    number_iterations = 1
-    population_size = 2
+    number_runs = 5
+    number_iterations = 5
+    population_size = 20
 
     batch_size_pso = 64
     batch_size_full_training = 64
